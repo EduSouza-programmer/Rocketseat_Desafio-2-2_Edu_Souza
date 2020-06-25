@@ -1,0 +1,156 @@
+@import "https: //fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap";
+
+:root {
+    --corVarHeader: #7159c1;
+    --corVarBody: #181a1b;
+    --corVarText: #eeeeee;
+    --corVarTitle: #50fa7b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    color: var(--corVarText);
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--corVarHeader);
+
+}
+
+header {
+
+    background-color: var(--corVarHeader);
+    padding: 30px;
+
+}
+
+header div {
+    text-align: center;
+
+}
+
+header div a {
+
+    text-decoration: none;
+    color: var(--corVarText);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 30px;
+    transition: color 300ms;
+}
+
+header div a:hover {
+    color: var(--corVarTitle);
+    transition: color 400ms;
+
+}
+
+/* header div a+a {
+    margin-left: 30px;
+} */
+
+/* ===== main ===== */
+
+.main {
+    background-color: var(--corVarBody);
+    text-align: center;
+    padding: 30px 0;
+}
+
+.main img {
+
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid var(--corVarTitle);
+    filter: brightness(0.9);
+
+    margin-top: 15px;
+}
+
+.main h1 {
+
+
+    color: var(--corVarTitle);
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 15px;
+    opacity: 0.9;
+
+}
+
+.main p {
+
+    max-width: 800px;
+    margin: 15px auto 0px;
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: justify;
+    text-indent: 30px;
+
+}
+
+.main h2 {
+    max-width: 800px;
+    text-align: left;
+    margin: 30px auto;
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--corVarTitle);
+}
+
+
+
+.main div {
+
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.main div ul li {
+
+    margin: 15px 60px;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+/* ===== footer ===== */
+
+.footer {
+    background-color: var(--corVarHeader);
+    text-align: center;
+    padding: 15px 0;
+    filter: brightness(0.95);
+
+
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 0.0001pt;
+}
+
+.footer a img {
+
+
+    background-color: var(--corVarHeader);
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    margin: 0 30px;
+    padding: 5px;
+    transition: background-color 300ms;
+}
+
+.footer a img:hover {
+    border-radius: 50%;
+    background-color: var(--corVarTitle);
+    transition: background-color 300ms;
+    filter: brightness(0.9);
+}
