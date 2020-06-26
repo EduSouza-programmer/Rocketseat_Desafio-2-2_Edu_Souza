@@ -40,6 +40,7 @@ header div a {
     font-weight: bold;
     margin: 0 30px;
     transition: color 300ms;
+
 }
 
 header div a:hover {
@@ -62,8 +63,8 @@ header div a:hover {
 
 .main img {
 
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 5px solid var(--corVarTitle);
     filter: brightness(0.9);
@@ -75,7 +76,7 @@ header div a:hover {
 
 
     color: var(--corVarTitle);
-    font-size: 55px;
+    font-size: 50px;
     font-weight: bold;
     margin-top: 15px;
     opacity: 0.9;
